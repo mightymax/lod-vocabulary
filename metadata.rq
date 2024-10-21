@@ -1,0 +1,26 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdfa: <http://www.w3.org/ns/rdfa#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+select ?vocab (str(sample(?labels)) as ?label) (str(sample(?descriptions)) as ?description) where {
+  graph <$VOCAB> {
+    ?vocab ?p ?o
+    optional {
+      ?vocab ?labelType ?labels
+      bind(lang(?labels) as ?langLabel)
+      filter(?langLabel = 'en' || bound(?langLabel))
+    }
+    optional {
+      ?vocab ?descriptionType ?descriptions
+      bind(lang(?descriptions) as ?langDescription)
+      filter(?langDescription = 'en' || bound(?langDescription))
+    }
+    filter(?vocab = <$VOCAB>)
+    filter(?descriptionType in (dct:description, rdfs:comment, skos:definition, skos:scopeNote))
+    filter(?labelType in (rdfs:label, skos:prefLabel, dct:title))
+  }
+}
+group by ?vocab

@@ -1,0 +1,56 @@
+{
+  "name": "lod-vocabulary",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Widely used vocabularies exposed as TS/JS libraries.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha lib/__tests__/**/*.js",
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "build:vocabs": "rm -f src/vocabularies/* ; node lib/builder.js",
+    "lint": "eslint src",
+    "prettier": "prettier \"src/vocabularies/*.ts\" --config .prettierrc --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightymax/lod-vocabulary.git"
+  },
+  "keywords": [
+    "LoD",
+    "Linked",
+    "Open",
+    "Data",
+    "vocabulary",
+    "ontology",
+    "rdf"
+  ],
+  "author": {
+    "name": "Mark Lindeman",
+    "email": "mark@lindeman.it"
+  },
+  "license": "EUPL-1.2",
+  "bugs": {
+    "url": "https://github.com/mightymax/lod-vocabulary/issues"
+  },
+  "homepage": "https://github.com/mightymax/lod-vocabulary#readme",
+  "devDependencies": {
+    "@comunica/query-sparql": "^4.0.2",
+    "@types/chai": "^5.0.0",
+    "@types/chai-as-promised": "^8.0.1",
+    "@types/mocha": "^10.0.9",
+    "@types/n3": "^1.21.1",
+    "@zazuko/vocabularies": "^2.1.1",
+    "chai": "^5.1.1",
+    "chai-as-promised": "^8.0.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "mocha": "^10.7.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
+  },
+  "dependencies": {
+    "n3": "^1.22.3"
+  }
+}

@@ -1,0 +1,575 @@
+<http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#hasContext> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a AccessibilityAndRightsComponent to its Context"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#label> "hasAccessibilityAndRightsComponent" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessModeType> <http://www.w3.org/2000/01/rdf-schema#comment> "The Class of <em>accessMode…</em> <a href=#datatypeproperties>Datatype Properties</a> that can be used to permit certain actions" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessModeType> <http://www.w3.org/2000/01/rdf-schema#label> "AccessModeType" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessModeType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isDefaultDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/DigitalDocument> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isDefaultDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isDefaultDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "If set to TRUE then a schema:DigitalDocument is the default Document for a Record."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isDefaultDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#label> "isDefaultDigitalDocument" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isDefaultDigitalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B9e15ed4aa1236b020892bfbbede02e81 <http://www.w3.org/2002/07/owl#oneOf> _:B948c681bX2D0e32X2D4288X2Dbb39X2D2e01adac10ec <http://memorix.io/ontology#> .
+_:B9e15ed4aa1236b020892bfbbede02e81 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B9e15ed4aa1236b020892bfbbede02e81 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/object> <http://memorix.io/ontology#> .
+_:B9e15ed4aa1236b020892bfbbede02e81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "RDF List of parents of other record contexts, starting with the root and ending with the parent attached to the record"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#label> "hasParents" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#hasContext> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#Record> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Record to its Context"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/2000/01/rdf-schema#label> "hasRecord" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B655f3c97ec57208e0ed1fa0b17885af4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+_:B655f3c97ec57208e0ed1fa0b17885af4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B655f3c97ec57208e0ed1fa0b17885af4 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#accessModeDownload> <http://memorix.io/ontology#> .
+_:B655f3c97ec57208e0ed1fa0b17885af4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B889bfe843854575ea748a9af56ab1b98 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+_:B889bfe843854575ea748a9af56ab1b98 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B889bfe843854575ea748a9af56ab1b98 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#attributionRequired> <http://memorix.io/ontology#> .
+_:B889bfe843854575ea748a9af56ab1b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B8800fa676f74b01828b9a614f8dd18b0 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+_:B8800fa676f74b01828b9a614f8dd18b0 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B8800fa676f74b01828b9a614f8dd18b0 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/fileSize> <http://memorix.io/ontology#> .
+_:B8800fa676f74b01828b9a614f8dd18b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B8800fa676f74b01828b9a614f8dd18b0 <http://www.w3.org/2000/01/rdf-schema#comment> "Filesize of document, Memorix always uses bytes as Int and not Text as Schema.org defines." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Collection> <http://www.w3.org/2004/02/skos/core#example> "\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix memorix: <http://memorix.io/ontology#> .\n@prefix recordtypes: </resources/recordtypes/> .\n<> a memorix:Collection ;\n  dct:description \"Collection of Persons and Organisations\" ;\n  dct:title \"Persons & Organisations\" ;\n  memorix:hasRecordtype recordtypes:All ." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Collection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0e06ecd983a4e123a94b25f3fd58dd3b <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Collection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "Collections are permanent groupings of Records that are conceptually linked. \n  Possible uses could be for works that were donated as a group, objects that all belonged to the same person, \n  or that were shown together in a historical exhibition etc. \n  Normally you wouldn’t use this to describe a category of works such as “books,” \n  though that is your choice. Object can only be in a single collection."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "The Organization making use of a specific Memorix instance."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:B8864b77ff0858df45c1bb126e4562698 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B8864b77ff0858df45c1bb126e4562698 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B8864b77ff0858df45c1bb126e4562698 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/conditionsOfAccess> <http://memorix.io/ontology#> .
+_:B8864b77ff0858df45c1bb126e4562698 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#InformationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depot> <http://www.w3.org/2000/01/rdf-schema#comment> "UUID of a Depot object registred in Memorix. Depots are not expressed as RDF Resources!" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depot> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#DepotLocationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depot> <http://www.w3.org/2000/01/rdf-schema#comment> "UUID of a Depot object registered in Memorix. Depots are not expressed as RDF Resources!" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depot> <http://www.w3.org/2000/01/rdf-schema#label> "depot" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+_:B9668fba203d7ab7f2e54c95c2753a449 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+_:B9668fba203d7ab7f2e54c95c2753a449 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B9668fba203d7ab7f2e54c95c2753a449 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#accessModeScanningOnDemand> <http://memorix.io/ontology#> .
+_:B9668fba203d7ab7f2e54c95c2753a449 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bd75fdbf3X2D4be9X2D41d1X2Db29aX2Da25e8589de00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://memorix.io/ontology#> .
+_:Bd75fdbf3X2D4be9X2D41d1X2Db29aX2Da25e8589de00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/UpdateAction> <http://memorix.io/ontology#> .
+_:B84c582ec80caedb85681087580e2f921 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B84c582ec80caedb85681087580e2f921 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B84c582ec80caedb85681087580e2f921 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/creditText> <http://memorix.io/ontology#> .
+_:B84c582ec80caedb85681087580e2f921 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B95fc3980600eca6eb3ebbfaced854044 <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B8800fa676f74b01828b9a614f8dd18b0 <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B13a81039ad5eabef149d46cc4b71e3d4 <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bc8f97c63af2d2e6b7e1c884e8a19f60b <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B084fb7464ecd95eb05182f5eb85a3f2e <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/2000/01/rdf-schema#label> "DigitalDocument" <http://memorix.io/ontology#> .
+<https://schema.org/DigitalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:B95fc3980600eca6eb3ebbfaced854044 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+_:B95fc3980600eca6eb3ebbfaced854044 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B95fc3980600eca6eb3ebbfaced854044 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#isDefaultDigitalDocument> <http://memorix.io/ontology#> .
+_:B95fc3980600eca6eb3ebbfaced854044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B95fc3980600eca6eb3ebbfaced854044 <http://www.w3.org/2000/01/rdf-schema#comment> "Switch for indication that a Document should be used as a default asset for a Record/Context" <http://memorix.io/ontology#> .
+_:B1ad3c198X2D127fX2D4450X2Da81bX2Db8a7f24eb59f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bb70f8bfbX2De3b8X2D4a8cX2D8ba0X2D2bb3ca7235ed <http://memorix.io/ontology#> .
+_:B1ad3c198X2D127fX2D4450X2Da81bX2Db8a7f24eb59f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of links to digital documents stored in Asset Manegement System."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#label> "hasDigitalDocument" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasDigitalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B9ce4255f67ade4e1d2d29b95c328d6af <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#date> <http://memorix.io/ontology#> .
+_:B9ce4255f67ade4e1d2d29b95c328d6af <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B9ce4255f67ade4e1d2d29b95c328d6af <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#restrictionsExpire> <http://memorix.io/ontology#> .
+_:B9ce4255f67ade4e1d2d29b95c328d6af <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#conceptSchemeIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#conceptSchemeIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#VocabularyEditor> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#conceptSchemeIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a list of skos:ConceptSchemes that can be used for picking Concepts."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#conceptSchemeIn> <http://www.w3.org/2000/01/rdf-schema#label> "conceptSchemeIn" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#conceptSchemeIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B67faac2d786e8faab7225395e9a7a52d <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#date> <http://memorix.io/ontology#> .
+_:B67faac2d786e8faab7225395e9a7a52d <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B67faac2d786e8faab7225395e9a7a52d <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#copyrightExpires> <http://memorix.io/ontology#> .
+_:B67faac2d786e8faab7225395e9a7a52d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#PathEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#PathEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Editor for managing the path of a container." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#PathEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Container path editor" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#PathEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B8864b77ff0858df45c1bb126e4562698 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B1b17d58d9b2c3c6f1340d0999fa412cf <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb0d3476124e89c1d023ae6f64fb47120 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B9668fba203d7ab7f2e54c95c2753a449 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B81b4433e6db32d21b380e1337030632e <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B67faac2d786e8faab7225395e9a7a52d <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B8eee516e2be3295ead8b3cf95e8f83ea <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B84c582ec80caedb85681087580e2f921 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B9ce4255f67ade4e1d2d29b95c328d6af <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of information about Accessibility & Rights."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B889bfe843854575ea748a9af56ab1b98 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bac224f9d8cda773c87ba8c73aefa13e7 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#label> "AccessibilityAndRightsComponent" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#InformationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B655f3c97ec57208e0ed1fa0b17885af4 <http://memorix.io/ontology#> .
+_:B1b17d58d9b2c3c6f1340d0999fa412cf <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+_:B1b17d58d9b2c3c6f1340d0999fa412cf <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B1b17d58d9b2c3c6f1340d0999fa412cf <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#accessModeDisplay> <http://memorix.io/ontology#> .
+_:B1b17d58d9b2c3c6f1340d0999fa412cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#constructQueryTitleAndDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#constructQueryTitleAndDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#constructQueryTitleAndDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Sets a SPARQL CONSTRUCT on a Recordtype to create titles and descriptions of memorix:Context. Expects a dcterms:title and dcterms:decription predicates." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#constructQueryTitleAndDescription> <http://www.w3.org/2000/01/rdf-schema#label> "constructQueryTitleAndDescription" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#constructQueryTitleAndDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B0e06ecd983a4e123a94b25f3fd58dd3b <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#AudienceExternal> <http://memorix.io/ontology#> .
+_:B0e06ecd983a4e123a94b25f3fd58dd3b <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#AudienceInternal> <http://memorix.io/ontology#> .
+_:B0e06ecd983a4e123a94b25f3fd58dd3b <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B0e06ecd983a4e123a94b25f3fd58dd3b <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#audience> <http://memorix.io/ontology#> .
+_:B0e06ecd983a4e123a94b25f3fd58dd3b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceInternal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#audience> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceInternal> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#AudienceExternal> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceInternal> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that something may not be used outside of the Memorix application  (to be used as value for <a href=#audience>audience</a> predicate on <a href=#Context>Context</a>)."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceInternal> <http://www.w3.org/2000/01/rdf-schema#label> "AudienceInternal" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceInternal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B35e4de828fa9df9be1e1c6c9a738c407 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bf9b16d4f770bb9c68275c71c7b619b7d <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Be97d43f0d8cac39b64151cef57e16294 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B20f00c4c26999b4f3c830c8bbf64b496 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/GeoCoordinates> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#label> "GeoCoordinates" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#comment> "Class for storing GeoCoordinates data."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#GeoCoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#AccessModeType> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/odrl-vocab/#term-display> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/2000/01/rdf-schema#comment> "Allow display of attached assets."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/2000/01/rdf-schema#label> "accessModeDisplay" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDisplay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for direct and limited (only creation and modification a.k.a. replacement) \n  history on a Resource. There is also a full History log for Resources (<code><a href=#History>memorix:History</a></code>) \n  link to a Resource by the Resources object property <code><a href=#hasHistory>memorix:hasHistory</a></code>"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/ReplaceAction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#history> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/CreateAction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inTitleAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inTitleAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inTitleAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that a sh:property is part of the title of memorix:Context" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inTitleAt> <http://www.w3.org/2000/01/rdf-schema#label> "inTitleAt" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inTitleAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecordtype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#TreePathComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecordtype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecordtype> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecordtype> <http://www.w3.org/2000/01/rdf-schema#comment> "Marks a Recordtype as usable in a Collection"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecordtype> <http://www.w3.org/2000/01/rdf-schema#label> "hasRecordtype" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasRecordtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:Bb15824871ebe27635d9dff1a01384b8e <http://www.w3.org/2002/07/owl#onClass> <http://memorix.io/ontology#Record> <http://memorix.io/ontology#> .
+_:Bb15824871ebe27635d9dff1a01384b8e <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bb15824871ebe27635d9dff1a01384b8e <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#hasRecord> <http://memorix.io/ontology#> .
+_:Bb15824871ebe27635d9dff1a01384b8e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#TreePathComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0246f1731414aff8fd43db57dc029731 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#TreePathComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#InformationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#TreePathComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Render element to link a parent record and show a tree structure." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#TreePathComponent> <http://www.w3.org/2000/01/rdf-schema#label> "TreePathComponent" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#TreePathComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#TreePathComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeReservation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeReservation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeReservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#AccessModeType> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeReservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Allow request/reservations."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeReservation> <http://www.w3.org/2000/01/rdf-schema#label> "accessModeReservation" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeReservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Class> <http://www.w3.org/2000/01/rdf-schema#comment> "Base Class for main Memorix Classes" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Class> <http://www.w3.org/2000/01/rdf-schema#label> "Class" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DigitalAssetComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#InformationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DigitalAssetComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DigitalAssetComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+_:B027dfbe00a8ef21868b410a083e813bd <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+_:B027dfbe00a8ef21868b410a083e813bd <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B027dfbe00a8ef21868b410a083e813bd <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#total> <http://memorix.io/ontology#> .
+_:B027dfbe00a8ef21868b410a083e813bd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inSummaryAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inSummaryAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#PropertyShape> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inSummaryAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that a sh:property is part of the description of memorix:Context" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inSummaryAt> <http://www.w3.org/2000/01/rdf-schema#label> "inSummaryAt" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#inSummaryAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#perPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#perPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#ResultPagination> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#perPage> <http://www.w3.org/2000/01/rdf-schema#label> "perPage" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#perPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximium number of items in page of a result set (a.k.a. as 'limit')." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#perPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/rights> "© 2021-… Picturae, Heerhugowaard, the Netherlands" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://memorix.io/ontology#> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://www.w3.org/2000/01/rdf-schema#label> "Memorix Application Ontology" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/created> "2021-02-09T17:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/publisher> _:B61965c8e09a9242a4b40bd5bef2b8f26 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://www.w3.org/2000/01/rdf-schema#comment> "The Memorix Application Ontology describes Classes and Properties that are uses in Picturae's Collection Management System."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/creator> _:Ba3ee7a286d853aee032abafadd1c6c16 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/modified> "2022-08-25T16:57:26+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nc-sa/4.0/> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "memorix" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://purl.org/dc/terms/contributor> "Memorix Development team" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://memorix.io/ontology#> .
+_:B61965c8e09a9242a4b40bd5bef2b8f26 <https://schema.org/identifier> <https://picturae.com> <http://memorix.io/ontology#> .
+_:B61965c8e09a9242a4b40bd5bef2b8f26 <https://schema.org/name> "Picturae" <http://memorix.io/ontology#> .
+_:B0246f1731414aff8fd43db57dc029731 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#hasRecordtype> <http://memorix.io/ontology#> .
+_:B0246f1731414aff8fd43db57dc029731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#page> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#page> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#ResultPagination> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#page> <http://www.w3.org/2000/01/rdf-schema#label> "page" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#page> <http://www.w3.org/2000/01/rdf-schema#comment> "Current page of result set (offset by 1)." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Set> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Set> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Set> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Set> <http://www.w3.org/2000/01/rdf-schema#comment> "Sets are designed for temporary and arbitrary groupings of your Record, \n  often for a practical task such as creating an online exhibition, \n  or creating a working list of images for publication etc. \n  Sets can contain Records from one or more Collections."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Set> <http://www.w3.org/2000/01/rdf-schema#label> "Set" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Set> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ImageComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#InformationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ImageComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ImageComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#copyrightExpires> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#copyrightExpires> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#copyrightExpires> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that defines when the copyright expires."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#copyrightExpires> <http://www.w3.org/2000/01/rdf-schema#label> "copyrightExpires" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#copyrightExpires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<https://schema.org/license> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> <http://memorix.io/ontology#> .
+<https://schema.org/license> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<https://schema.org/license> <http://www.w3.org/2000/01/rdf-schema#label> "license" <http://memorix.io/ontology#> .
+<https://schema.org/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+_:B20996dcf97b6295d27431ad5000208a8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#dateTime> <http://memorix.io/ontology#> .
+_:B20996dcf97b6295d27431ad5000208a8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B20996dcf97b6295d27431ad5000208a8 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/startTime> <http://memorix.io/ontology#> .
+_:B20996dcf97b6295d27431ad5000208a8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bb4137c5cX2D3f37X2D4b27X2D9a07X2D37df6b27507d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://memorix.io/ontology#> .
+_:Bb4137c5cX2D3f37X2D4b27X2D9a07X2D37df6b27507d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#AudienceExternal> <http://memorix.io/ontology#> .
+_:B322db59aX2D7058X2D4066X2D8cffX2Dec107c9b7cf1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B0a5f7626X2D7a6aX2D4a8aX2D9965X2Db7f9dbbb41fd <http://memorix.io/ontology#> .
+_:B322db59aX2D7058X2D4066X2D8cffX2Dec107c9b7cf1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/AddAction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LinkedRecordEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LinkedRecordEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Editor for linking to Memorix Nexus internal records." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LinkedRecordEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Linked Record Editor" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LinkedRecordEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:B20894d57X2Dd156X2D4c5cX2D85b4X2D70b41951059f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://memorix.io/ontology#> .
+_:B20894d57X2Dd156X2D4c5cX2D85b4X2D70b41951059f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Recordtype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Recordtype> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/shacl#NodeShape> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Recordtype> <http://www.w3.org/2000/01/rdf-schema#comment> "Record Types are the most commonly used way to categorize Records in your collection.\n  The main guideline is to choose Record types that are broad enough so that an Record can never be more than one type \n  (ie a painting can never also be an moving image). \n  If you would like to describe your Records more specifically, you can supplement this categorization with an \n  additional \"subtype\" dropdown menu on the record editor itself.  For example, an object of type \"ephemera\" \n  could have a subtype list of \"postcard,\" \"poster,\" \"letter,\" etc.  \n  A subtype list could potentially be repeatable, so you would have the opportunity to assign multiple subtypes if that's appropriate.\n  Record types are described using SHACL Nodeshapes."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Recordtype> <http://www.w3.org/2000/01/rdf-schema#label> "Recordtype" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Recordtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:Bdbd99ce99f67474c970774d987065fd4 <http://www.w3.org/2002/07/owl#oneOf> _:B322db59aX2D7058X2D4066X2D8cffX2Dec107c9b7cf1 <http://memorix.io/ontology#> .
+_:Bdbd99ce99f67474c970774d987065fd4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bdbd99ce99f67474c970774d987065fd4 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/additionalType> <http://memorix.io/ontology#> .
+_:Bdbd99ce99f67474c970774d987065fd4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isPartOfSet> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#hasContext> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isPartOfSet> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isPartOfSet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#isPartOfSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#DepotLocationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerStart> <http://www.w3.org/2000/01/rdf-schema#comment> "UUID of a Depot Container that markes the start of a physical depot location of an object registered in Memorix. Containers are not expressed as RDF Resources!" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerStart> <http://www.w3.org/2000/01/rdf-schema#label> "depotContainerStart" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationCoordinatesEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationCoordinatesEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Editor for selecting a Coordinates Location." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationCoordinatesEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinates Editor" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationCoordinatesEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicator for number of items (e.g. Records or Concepts) that are contained by Sets, Collections and ConceptSchemes"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/2000/01/rdf-schema#label> "numberOfItems" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfItems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+_:B0a5f7626X2D7a6aX2D4a8aX2D9965X2Db7f9dbbb41fd <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bc3abf959X2D5b61X2D43e5X2Da3e6X2Dab572e5ee748 <http://memorix.io/ontology#> .
+_:B0a5f7626X2D7a6aX2D4a8aX2D9965X2Db7f9dbbb41fd <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/ReplaceAction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Thingy> <http://purl.org/dc/terms/creator> "Siergiej Onda" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Thingy> <http://www.w3.org/2000/01/rdf-schema#label> "Thingy" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Thingy> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of Memorix individuals that do not have a specific name, \n  or have a name that no one can come up with during a meeting."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Thingy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationBagEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationBagEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Editor for selecting a BAG Location." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationBagEditor> <http://www.w3.org/2000/01/rdf-schema#label> "BAG Editor" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#LocationBagEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#AccessModeType> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://creativecommons.org/ns#Attribution> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/2000/01/rdf-schema#comment> "If set to TRUE then it is required to show Creditstatement."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/2000/01/rdf-schema#label> "attributionRequired" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#attributionRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B35e4de828fa9df9be1e1c6c9a738c407 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/ns/shacl#IRI> <http://memorix.io/ontology#> .
+_:B35e4de828fa9df9be1e1c6c9a738c407 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/sameAs> <http://memorix.io/ontology#> .
+_:B35e4de828fa9df9be1e1c6c9a738c407 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B20f00c4c26999b4f3c830c8bbf64b496 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B20f00c4c26999b4f3c830c8bbf64b496 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B20f00c4c26999b4f3c830c8bbf64b496 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/name> <http://memorix.io/ontology#> .
+_:B20f00c4c26999b4f3c830c8bbf64b496 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/object> <http://memorix.io/ontology#> .
+_:Bf1387279028d4022a2256a7af8699785 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bca42b6f4199122cac7fefeface416248 <http://www.w3.org/2002/07/owl#onClass> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+_:Bca42b6f4199122cac7fefeface416248 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bca42b6f4199122cac7fefeface416248 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#hasContext> <http://memorix.io/ontology#> .
+_:Bca42b6f4199122cac7fefeface416248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B09c249142f17ad2a8e251611decc0070 <http://www.w3.org/2002/07/owl#onClass> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+_:B09c249142f17ad2a8e251611decc0070 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B09c249142f17ad2a8e251611decc0070 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/conformsTo> <http://memorix.io/ontology#> .
+_:B09c249142f17ad2a8e251611decc0070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bd0b4d5d6d47da2412d4355736219188d <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bd0b4d5d6d47da2412d4355736219188d <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#depotContainerStart> <http://memorix.io/ontology#> .
+_:Bd0b4d5d6d47da2412d4355736219188d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#VocabularyEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#VocabularyEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "Editor for linking to a concept in a conceptscheme." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#VocabularyEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary Editor" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#VocabularyEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:Be97d43f0d8cac39b64151cef57e16294 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> <http://memorix.io/ontology#> .
+_:Be97d43f0d8cac39b64151cef57e16294 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Be97d43f0d8cac39b64151cef57e16294 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/latitude> <http://memorix.io/ontology#> .
+_:Be97d43f0d8cac39b64151cef57e16294 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<https://schema.org/accessMode> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#AccessModeType> <http://memorix.io/ontology#> .
+<https://schema.org/accessMode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<https://schema.org/accessMode> <http://www.w3.org/2000/01/rdf-schema#label> "accessMode" <http://memorix.io/ontology#> .
+<https://schema.org/accessMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasMedia> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasMedia> <http://www.w3.org/2000/01/rdf-schema#comment> "Links from a Record to Media (e.g. Nuxeo links, IIIF Manifest files, etc)"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasMedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B13a81039ad5eabef149d46cc4b71e3d4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B13a81039ad5eabef149d46cc4b71e3d4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B13a81039ad5eabef149d46cc4b71e3d4 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/encodingFormat> <http://memorix.io/ontology#> .
+_:B13a81039ad5eabef149d46cc4b71e3d4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B13a81039ad5eabef149d46cc4b71e3d4 <http://www.w3.org/2000/01/rdf-schema#comment> "The mimetype of the document" <http://memorix.io/ontology#> .
+_:B0cf413c2adfab9559b05bcb9aef72baf <http://www.w3.org/2002/07/owl#onClass> <http://memorix.io/ontology#DepotLocationComponent> <http://memorix.io/ontology#> .
+_:B0cf413c2adfab9559b05bcb9aef72baf <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#depotLocation> <http://memorix.io/ontology#> .
+_:B0cf413c2adfab9559b05bcb9aef72baf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B0989f1d69e4baa817f328e24df03f4f3 <http://www.w3.org/2002/07/owl#oneOf> _:Be08b3095X2Dd20fX2D4c0dX2D8eb4X2Def77664a26e5 <http://memorix.io/ontology#> .
+_:B0989f1d69e4baa817f328e24df03f4f3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B0989f1d69e4baa817f328e24df03f4f3 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#audience> <http://memorix.io/ontology#> .
+_:B0989f1d69e4baa817f328e24df03f4f3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#DepotLocationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "UUID of a Depot Container that markes the end of a physical depot location of an object registered in Memorix. Containers are not expressed as RDF Resources!" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerEnd> <http://www.w3.org/2000/01/rdf-schema#label> "depotContainerEnd" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#depotContainerEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#AccessModeType> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.w3.org/TR/odrl-vocab/#term-archive> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/2000/01/rdf-schema#comment> "Allow download of attached assets."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/2000/01/rdf-schema#label> "accessModeDownload" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeDownload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+_:B41519efeb768838418a5bb20fbef274a <http://www.w3.org/2002/07/owl#onDataRange> <http://memorix.io/ontology#User> <http://memorix.io/ontology#> .
+_:B41519efeb768838418a5bb20fbef274a <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B41519efeb768838418a5bb20fbef274a <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/agent> <http://memorix.io/ontology#> .
+_:B41519efeb768838418a5bb20fbef274a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bad670563b33ad2b2a25cc9b344406a50 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bad670563b33ad2b2a25cc9b344406a50 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#depot> <http://memorix.io/ontology#> .
+_:Bad670563b33ad2b2a25cc9b344406a50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B9caaba5797deacf2226e55a6eb3b4f45 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+_:B9caaba5797deacf2226e55a6eb3b4f45 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B9caaba5797deacf2226e55a6eb3b4f45 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#page> <http://memorix.io/ontology#> .
+_:B9caaba5797deacf2226e55a6eb3b4f45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bf9b16d4f770bb9c68275c71c7b619b7d <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> <http://memorix.io/ontology#> .
+_:Bf9b16d4f770bb9c68275c71c7b619b7d <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bf9b16d4f770bb9c68275c71c7b619b7d <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/longitude> <http://memorix.io/ontology#> .
+_:Bf9b16d4f770bb9c68275c71c7b619b7d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bb0d3476124e89c1d023ae6f64fb47120 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#anyURI> <http://memorix.io/ontology#> .
+_:Bb0d3476124e89c1d023ae6f64fb47120 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bb0d3476124e89c1d023ae6f64fb47120 <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/license> <http://memorix.io/ontology#> .
+_:Bb0d3476124e89c1d023ae6f64fb47120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bc8f97c63af2d2e6b7e1c884e8a19f60b <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:Bc8f97c63af2d2e6b7e1c884e8a19f60b <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bc8f97c63af2d2e6b7e1c884e8a19f60b <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/name> <http://memorix.io/ontology#> .
+_:Bc8f97c63af2d2e6b7e1c884e8a19f60b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bc8f97c63af2d2e6b7e1c884e8a19f60b <http://www.w3.org/2000/01/rdf-schema#comment> "The document name in DAM (without extension)" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0b739fe9a3c5e7af47de37229009ab08 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bd0b4d5d6d47da2412d4355736219188d <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bad670563b33ad2b2a25cc9b344406a50 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#InformationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Depot location information, specific to memorix application." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#label> "DepotLocationComponent" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DepotLocationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:Bc3abf959X2D5b61X2D43e5X2Da3e6X2Dab572e5ee748 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd75fdbf3X2D4be9X2D41d1X2Db29aX2Da25e8589de00 <http://memorix.io/ontology#> .
+_:Bc3abf959X2D5b61X2D43e5X2Da3e6X2Dab572e5ee748 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/DeleteAction> <http://memorix.io/ontology#> .
+<https://schema.org/creditText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+<https://schema.org/creditText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<https://schema.org/creditText> <http://www.w3.org/2000/01/rdf-schema#label> "creditText" <http://memorix.io/ontology#> .
+<https://schema.org/creditText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bca42b6f4199122cac7fefeface416248 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.nationaalarchief.nl/archiveren/kennisbank/informatieobject> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/2000/01/rdf-schema#comment> "Vastgelegde informatie die als eenheid moet worden behandeld."@nl <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/2000/01/rdf-schema#comment> "Recorded information that must be handled as a unit."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/2000/01/rdf-schema#label> "Record" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:Bac224f9d8cda773c87ba8c73aefa13e7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+_:Bac224f9d8cda773c87ba8c73aefa13e7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bac224f9d8cda773c87ba8c73aefa13e7 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#accessModeReservation> <http://memorix.io/ontology#> .
+_:Bac224f9d8cda773c87ba8c73aefa13e7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bdbd99ce99f67474c970774d987065fd4 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B9e15ed4aa1236b020892bfbbede02e81 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B20996dcf97b6295d27431ad5000208a8 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bf1387279028d4022a2256a7af8699785 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B41519efeb768838418a5bb20fbef274a <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Action> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of Actions performed on a resources by an Agent at a certain Time. \n  Note there is also a ObjectProperty 'history' on Resources which is used for last modification and creation history." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#History> <http://www.w3.org/2000/01/rdf-schema#label> "History" <http://memorix.io/ontology#> .
+_:B8eee516e2be3295ead8b3cf95e8f83ea <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B8eee516e2be3295ead8b3cf95e8f83ea <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B8eee516e2be3295ead8b3cf95e8f83ea <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/copyrightNotice> <http://memorix.io/ontology#> .
+_:B8eee516e2be3295ead8b3cf95e8f83ea <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Ba3ee7a286d853aee032abafadd1c6c16 <https://schema.org/email> "m.lindeman@picturae.com" <http://memorix.io/ontology#> .
+_:Ba3ee7a286d853aee032abafadd1c6c16 <https://schema.org/name> "Mark Lindeman" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba975a37fb783c665f1ae6ea3653ec86a <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B9caaba5797deacf2226e55a6eb3b4f45 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B2d584c3a9873cbe5e3e5101cee2b1f6c <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B027dfbe00a8ef21868b410a083e813bd <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#label> "Pagination" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent Class for pagination properties."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#ResultPagination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2002/07/owl#inverseOf> <https://schema.org/object> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#History> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Links zero or more History reources to a Class"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasHistory> <http://www.w3.org/2000/01/rdf-schema#label> "hasHistory" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/audience> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2002/07/owl#oneOf> _:Bc9a59ea2X2D2e2bX2D4bf1X2Da9a2X2Df9cd646ecc7f <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that makes a resource internal/external from the Application perspective. \n  An external resource may never be published outside the Memorix Application. \n  When used on a Shacl property (sh:property) this property may provide information for certain RDF statements \n  that may not be published outside Memorix. "@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#property> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#label> "audience" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#audience> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://schema.org/audience> <http://memorix.io/ontology#> .
+_:Bc9a59ea2X2D2e2bX2D4bf1X2Da9a2X2Df9cd646ecc7f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bb4137c5cX2D3f37X2D4b27X2D9a07X2D37df6b27507d <http://memorix.io/ontology#> .
+_:Bc9a59ea2X2D2e2bX2D4bf1X2Da9a2X2Df9cd646ecc7f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#AudienceInternal> <http://memorix.io/ontology#> .
+_:Ba975a37fb783c665f1ae6ea3653ec86a <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+_:Ba975a37fb783c665f1ae6ea3653ec86a <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Ba975a37fb783c665f1ae6ea3653ec86a <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#numberOfPages> <http://memorix.io/ontology#> .
+_:Ba975a37fb783c665f1ae6ea3653ec86a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:Bb19d5cfe0d8664b08b734783caeb4e1c <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:Bb19d5cfe0d8664b08b734783caeb4e1c <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:Bb19d5cfe0d8664b08b734783caeb4e1c <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/description> <http://memorix.io/ontology#> .
+_:Bb19d5cfe0d8664b08b734783caeb4e1c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeScanningOnDemand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeScanningOnDemand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeScanningOnDemand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#AccessModeType> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeScanningOnDemand> <http://www.w3.org/2000/01/rdf-schema#comment> "Allow scanning on demand."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeScanningOnDemand> <http://www.w3.org/2000/01/rdf-schema#label> "accessModeScanningOnDemand" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#accessModeScanningOnDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#total> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#total> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#ResultPagination> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#total> <http://www.w3.org/2000/01/rdf-schema#label> "total" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#total> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of items in a result set." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#total> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceExternal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#audience> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceExternal> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#AudienceInternal> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceExternal> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that something may be used outside of the Memorix application (to be used as value for <a href=#audience>audience</a> predicate on <a href=#Context>Context</a>)."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceExternal> <http://www.w3.org/2000/01/rdf-schema#label> "AudienceExternal" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#AudienceExternal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+_:Bb70f8bfbX2De3b8X2D4a8cX2D8ba0X2D2bb3ca7235ed <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B20894d57X2Dd156X2D4c5cX2D85b4X2D70b41951059f <http://memorix.io/ontology#> .
+_:Bb70f8bfbX2De3b8X2D4a8cX2D8ba0X2D2bb3ca7235ed <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#Collection> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0cf413c2adfab9559b05bcb9aef72baf <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://memorix.io/ontology#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0989f1d69e4baa817f328e24df03f4f3 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#label> "Context" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb15824871ebe27635d9dff1a01384b8e <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#comment> "Memorix unit used as an entrypoint to all things related to an informationobject."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B09c249142f17ad2a8e251611decc0070 <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bb19d5cfe0d8664b08b734783caeb4e1c <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Context> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B9d54fd29d996d511a364fc4a5ce75e96 <http://memorix.io/ontology#> .
+_:Be08b3095X2Dd20fX2D4c0dX2D8eb4X2Def77664a26e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd2805336X2D4585X2D47abX2Db7deX2D2641f23ef495 <http://memorix.io/ontology#> .
+_:Be08b3095X2Dd20fX2D4c0dX2D8eb4X2Def77664a26e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#AudienceInternal> <http://memorix.io/ontology#> .
+_:Bd2805336X2D4585X2D47abX2Db7deX2D2641f23ef495 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://memorix.io/ontology#> .
+_:Bd2805336X2D4585X2D47abX2Db7deX2D2641f23ef495 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#AudienceExternal> <http://memorix.io/ontology#> .
+<https://schema.org/copyrightHolder> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<https://schema.org/copyrightHolder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<https://schema.org/copyrightHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to a Context/Record from Memorix"@en <http://memorix.io/ontology#> .
+<https://schema.org/copyrightHolder> <http://www.w3.org/2000/01/rdf-schema#label> "copyrightHolder" <http://memorix.io/ontology#> .
+<https://schema.org/copyrightHolder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#hasRecord> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Record> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#AccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "hasContext" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Context object to a Record, AccessibilityAndRightsComponent or schema:DigitalDocument"@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#hasAccessibilityAndRightsComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2002/07/owl#inverseOf> <http://memorix.io/ontology#isPartOfSet> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Set> <http://memorix.io/ontology#> .
+_:B81b4433e6db32d21b380e1337030632e <http://www.w3.org/2002/07/owl#onClass> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+_:B81b4433e6db32d21b380e1337030632e <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B81b4433e6db32d21b380e1337030632e <http://www.w3.org/2002/07/owl#onProperty> <https://schema.org/copyrightHolder> <http://memorix.io/ontology#> .
+_:B81b4433e6db32d21b380e1337030632e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B9d54fd29d996d511a364fc4a5ce75e96 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B9d54fd29d996d511a364fc4a5ce75e96 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B9d54fd29d996d511a364fc4a5ce75e96 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/title> <http://memorix.io/ontology#> .
+_:B9d54fd29d996d511a364fc4a5ce75e96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B0b739fe9a3c5e7af47de37229009ab08 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B0b739fe9a3c5e7af47de37229009ab08 <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#depotContainerEnd> <http://memorix.io/ontology#> .
+_:B0b739fe9a3c5e7af47de37229009ab08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B084fb7464ecd95eb05182f5eb85a3f2e <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> <http://memorix.io/ontology#> .
+_:B084fb7464ecd95eb05182f5eb85a3f2e <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B084fb7464ecd95eb05182f5eb85a3f2e <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#digitalDocumentId> <http://memorix.io/ontology#> .
+_:B084fb7464ecd95eb05182f5eb85a3f2e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DateEditor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DateEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "An editor for integer date literals, e.g. 20081201." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DateEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Integer date editor" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#DateEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#ResultPagination> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#label> "numberOfPages" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of pages in result set." <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#numberOfPages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+_:B2d584c3a9873cbe5e3e5101cee2b1f6c <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#int> <http://memorix.io/ontology#> .
+_:B2d584c3a9873cbe5e3e5101cee2b1f6c <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://memorix.io/ontology#> .
+_:B2d584c3a9873cbe5e3e5101cee2b1f6c <http://www.w3.org/2002/07/owl#onProperty> <http://memorix.io/ontology#perPage> <http://memorix.io/ontology#> .
+_:B2d584c3a9873cbe5e3e5101cee2b1f6c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://memorix.io/ontology#> .
+_:B948c681bX2D0e32X2D4288X2Dbb39X2D2e01adac10ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B1ad3c198X2D127fX2D4450X2Da81bX2Db8a7f24eb59f <http://memorix.io/ontology#> .
+_:B948c681bX2D0e32X2D4288X2Dbb39X2D2e01adac10ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#restrictionsExpire> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#restrictionsExpire> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Context> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#restrictionsExpire> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that defines when a restriction to Conditions of Access expires."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#restrictionsExpire> <http://www.w3.org/2000/01/rdf-schema#label> "restrictionsExpire" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#restrictionsExpire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasInformationComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://memorix.io/ontology#InformationComponent> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasInformationComponent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://memorix.io/ontology#Recordtype> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasInformationComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an InformationComponent to a RecordType. Can be used as information for frontend rendering."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasInformationComponent> <http://www.w3.org/2000/01/rdf-schema#label> "hasInformationComponent" <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#hasInformationComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://memorix.io/ontology#> .
