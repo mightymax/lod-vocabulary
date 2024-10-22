@@ -276,18 +276,18 @@ const memorix = {
     ResultPagination: prefixer('ResultPagination'),
 
     /**
-    * **[depot](http://memorix.io/ontology#depot)** (property)
-    * 
-    * UUID of a Depot object registred in Memorix. Depots are not expressed as RDF Resources!
-    */
-    depot: prefixer('depot'),
-
-    /**
     * **[Linked Record Editor](http://memorix.io/ontology#LinkedRecordEditor)** (class)
     * 
     * Editor for linking to Memorix Nexus internal records.
     */
     LinkedRecordEditor: prefixer('LinkedRecordEditor'),
+
+    /**
+    * **[depot](http://memorix.io/ontology#depot)** (property)
+    * 
+    * UUID of a Depot object registred in Memorix. Depots are not expressed as RDF Resources!
+    */
+    depot: prefixer('depot'),
 
     /**
     * **[Coordinates Editor](http://memorix.io/ontology#LocationCoordinatesEditor)** (class)
@@ -297,6 +297,13 @@ const memorix = {
     LocationCoordinatesEditor: prefixer('LocationCoordinatesEditor'),
 
     /**
+    * **[BAG Editor](http://memorix.io/ontology#LocationBagEditor)** (class)
+    * 
+    * Editor for selecting a BAG Location.
+    */
+    LocationBagEditor: prefixer('LocationBagEditor'),
+
+    /**
     * **[restrictionsExpire](http://memorix.io/ontology#restrictionsExpire)** (property)
     * 
     * Property that defines when a restriction to Conditions of Access expires.
@@ -304,11 +311,11 @@ const memorix = {
     restrictionsExpire: prefixer('restrictionsExpire'),
 
     /**
-    * **[BAG Editor](http://memorix.io/ontology#LocationBagEditor)** (class)
+    * **[User](http://memorix.io/ontology#User)** (class)
     * 
-    * Editor for selecting a BAG Location.
+    * A Memorix UI/API User.
     */
-    LocationBagEditor: prefixer('LocationBagEditor'),
+    User: prefixer('User'),
 
     /**
     * **[copyrightExpires](http://memorix.io/ontology#copyrightExpires)** (property)
