@@ -7,12 +7,12 @@ This repository allows you to use widely used vocabularies in your Javascript/Ty
 
 First install the package in your project:
 ```bash
-npm i lod-vocabularies
+npm i lod-vocabulary
 ```
 
 Then in your Typescript file (example):
 ```ts
-import { sdo } from 'lod-vocabularies'
+import { sdo } from 'lod-vocabulary'
 console.log(sdo.Person)
 ```
 

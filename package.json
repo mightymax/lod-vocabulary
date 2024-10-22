@@ -1,6 +1,6 @@
 {
   "name": "lod-vocabulary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Widely used vocabularies exposed as TS/JS libraries.",
   "main": "lib/index.js",
@@ -34,6 +34,9 @@
     "url": "https://github.com/mightymax/lod-vocabulary/issues"
   },
   "homepage": "https://github.com/mightymax/lod-vocabulary#readme",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@comunica/query-sparql": "^4.0.2",
     "@types/chai": "^5.0.0",
