@@ -11,11 +11,13 @@ npm i lod-vocabularies
 ```
 
 Then in your Typescript file (example):
-```
+```ts
 import { sdo } from 'lod-vocabularies'
-
 console.log(sdo.Person)
 ```
+
+IDE's such as Visual Studio Code will show additional information taken from the vocabulary:
+<img src="Scherm­afbeelding 2024-10-22 om 07.40.44.png">
 
 ## Developers
 To generate the vocabularies, follow these steps:
