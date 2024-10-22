@@ -11,7 +11,7 @@
     "build:vocabs": "rm -f src/vocabularies/* ; node lib/builder.js",
     "lint": "eslint src",
     "prettier": "prettier \"src/vocabularies/*.ts\" --config .prettierrc --write",
-    "preversion": "npm run build && npm run lint && npm run build:vocabs && npm run test",
+    "preversion": "npm run build && npm run lint && npm run test",
     "postversion": "npm publish",
     "postpublish": "git push origin --all; git push origin --tags"
   },
