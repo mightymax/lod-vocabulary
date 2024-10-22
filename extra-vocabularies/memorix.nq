@@ -576,3 +576,5 @@ _:B948c681bX2D0e32X2D4288X2Dbb39X2D2e01adac10ec <http://www.w3.org/1999/02/22-rd
 <http://memorix.io/ontology#User> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
 <http://memorix.io/ontology#User> <http://www.w3.org/2000/01/rdf-schema#label> "User"@en <http://memorix.io/ontology#> .
 <http://memorix.io/ontology#User> <http://www.w3.org/2000/01/rdf-schema#comment> "A Memorix UI/API User."@en <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Pagination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://memorix.io/ontology#> .
+<http://memorix.io/ontology#Pagination> <http://www.w3.org/2000/01/rdf-schema#label> "Pagination"@en <http://memorix.io/ontology#> .
