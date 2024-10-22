@@ -9,7 +9,9 @@ const engine = new QueryEngine();
 const customPrefixes: CustomPrefixes = {
   memorix: 'http://memorix.io/ontology#',
   sdo: 'https://schema.org/',
+  xsd: prefixes.xsd
 };
+
 for (const prefix of Object.keys(customPrefixes)) {
   prefixes[prefix] = customPrefixes[prefix];
 }
@@ -19,11 +21,11 @@ const filterWanted = (prefix: string) => wanted.length > 0 ? wanted.includes(pre
 const missingVocabularies: CustomPrefixes = {};
 
 const getDataset = async (prefix: string) => {
-  if (Object.hasOwnProperty.call(customPrefixes, prefix)) {
+  if (Object.hasOwn(customPrefixes, prefix)) {
     const quadFile = `./extra-vocabularies/${prefix}.nq`;
     if (!fs.existsSync(quadFile)) {
       missingVocabularies[prefix] = customPrefixes[prefix];
-      console.error(quadFile);
+      console.error(quadFile + ' not found');
       return;
     }
     return new Parser({ factory, format: 'application/n-quads' }).parse(
@@ -32,7 +34,7 @@ const getDataset = async (prefix: string) => {
   } else {
     if (!fs.existsSync(`node_modules/@vocabulary/${prefix}/index.js`)) {
       missingVocabularies[prefix] = prefixes[prefix];
-      console.error(`- ${prefix}: ${prefixes[prefix]}`);
+      console.error(`- ${prefix}: ${prefixes[prefix]} (vocab NQ file is missing)`);
       return;
     } else {
       return (await import(`@vocabulary/${prefix}/index.js`)).default({
@@ -95,7 +97,7 @@ export default ${cleanPrefix}
   } else {
     missingVocabularies[prefix] = prefixes[prefix];
     console.error(
-      `- ${prefix}: ${prefixes[prefix]}`,
+      `- ${prefix}: ${prefixes[prefix]} (no bindings for SPARQL query)`,
     );
   }
 }

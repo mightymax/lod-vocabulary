@@ -88,4 +88,4 @@ export { default as wgs } from './vocabularies/wgs.js';
 export { default as xkos } from './vocabularies/xkos.js';
 export { default as memorix } from './vocabularies/memorix.js';
 export { default as sdo } from './vocabularies/sdo.js';
-export const missingVocabularies = ['constant', 'dig', 'discipline', 'dtype', 'geof', 'geor', 'gml', 'ma', 'prefix', 'qkdv', 'quantitykind', 'rdfa', 'shsh', 'sou', 'stat', 'unit', 'xhv', 'xsd', 'rif', 'v', 'wdr', 'xml'];
+export const missingVocabularies = ['constant', 'dig', 'discipline', 'dtype', 'geof', 'geor', 'gml', 'ma', 'prefix', 'qkdv', 'quantitykind', 'rdfa', 'shsh', 'sou', 'stat', 'unit', 'xhv', 'rif', 'v', 'wdr', 'xml'];

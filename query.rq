@@ -14,7 +14,7 @@ SELECT ?item ?itemType (str(sample(?labels)) as ?label) (str(sample(?description
   { 
     ?item a/rdfs:subClassOf* ?class .
     bind ('property' as ?itemType)
-    filter(?class in ( owl:ObjectProperty, owl:AnnotationProperty, owl:DatatypeProperty, rdf:Property ))
+    filter(?class in ( owl:ObjectProperty, owl:AnnotationProperty, owl:DatatypeProperty, rdf:Property, rdfs:Datatype ))
   }
   optional {
     ?item ?labelType ?labels

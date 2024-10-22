@@ -56,3 +56,6 @@ Currently, these vocabularies are missing becasue the SPARQL query does not retu
 - wdr: http://www.w3.org/2007/05/powder#
 - xml: http://www.w3.org/XML/1998/namespace/
 
+## Acknowledgements
+- [Zazuko](https://github.com/zazuko/) for the list of vocabularies an the easy access to their datasets.
+- [Triply](https://nightly.triplydb.com/wouter-triply/xsd) for the XSD datatypes in RDF
