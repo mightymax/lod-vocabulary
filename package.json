@@ -1,6 +1,6 @@
 {
   "name": "lod-vocabulary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Widely used vocabularies exposed as TS/JS libraries.",
   "main": "lib/index.js",
