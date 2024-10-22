@@ -1,10 +1,13 @@
-import { sdo, missingVocabularies } from '../index.js';
+import { sdo } from '../index.js';
 import { DataFactory } from 'n3';
 import prefixes from '@zazuko/prefixes';
 import * as chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 chai.use(chaiAsPromised);
 const { assert, expect } = chai;
+
+const missingVocabularies = ['constant', 'dig', 'discipline', 'dtype', 'geof', 'geor', 'gml', 'ma', 'prefix', 'qkdv', 'quantitykind', 'rdfa', 'shsh', 'sou', 'stat', 'unit', 'xhv', 'rif', 'v', 'wdr', 'xml'];
+
 
 const load = async (prefix: string) =>
   await import(`../vocabularies/${prefix}.js`)
